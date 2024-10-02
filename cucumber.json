@@ -1,0 +1,13 @@
+{
+  "default": {
+    "formatOptions":{
+      "snippetInterface": "async-await",
+      "timeout": 200000
+    },
+    "require": ["src/steps/*.ts"],
+    "paths": ["src/features/**/*.feature"],
+    "format": ["@cucumber/pretty-formatter"],
+    "timeout": 100000,
+    "dryRun": false
+  }
+}
