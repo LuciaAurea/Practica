@@ -1,4 +1,4 @@
-# Practica Playwright - Cucumber
+# Practica Playwright - Git
 
 Reto de automatización de pruebas con Playwright, cucumber y TypeScrip, para el registro de un empleado.
 
