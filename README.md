@@ -1,4 +1,5 @@
 # Practica Playwright - Git - Estoy en la rama practica 2
+# Practica Playwright - Git - Rama main
 
 Reto de automatización de pruebas con Playwright, cucumber y TypeScrip, para el registro de un empleado.
 
