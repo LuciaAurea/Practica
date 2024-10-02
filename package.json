@@ -1,0 +1,23 @@
+{
+  "name": "orangehrm-login-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "cucumber-js --require-module ts-node/register --format json:./reports/cucumber-report.json",
+    "report": "node src/cucumber-report.js",
+    "generate": "npm run test && npm run report"
+  },
+  "dependencies": {
+    "@types/cucumber": "^6.0.1",
+    "cucumber-html-reporter": "^7.1.1"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "@cucumber/pretty-formatter": "^1.0.1",
+    "@playwright/test": "^1.47.2",
+    "playwright": "^1.47.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
